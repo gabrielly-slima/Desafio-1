@@ -1,8 +1,9 @@
 def verificacao (numero):
     return numero % 2 ==0 
 
+print("SEJA BEM-VINDO AO JOGO DO ÍMPAR OU PAR")
+
 while True:
-    print("SEJA BEM-VINDO AO JOGO DO ÍMPAR OU PAR")
     entrada = input("Digite um número qualquer ou se quiser sair digite: SAIR")
     print(" ")
     
