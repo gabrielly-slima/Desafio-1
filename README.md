@@ -11,13 +11,13 @@ Os scripts disponibilizados envolvem a utilização de alguns fundamentos básic
 - Escrita de funções para reaproveitar blocos de código.
 
 # Lista de desafios
-- [x] Ímpar ou Par
-- []
-- []
-- []
-- []
-- []
-- []
-- []
-- []
-- []
+-[x] Ímpar ou Par
+-[]
+-[]
+-[]
+-[]
+-[]
+-[]
+-[]
+-[]
+-[]
