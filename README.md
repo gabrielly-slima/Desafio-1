@@ -12,12 +12,12 @@ Os scripts disponibilizados envolvem a utilização de alguns fundamentos básic
 
 # Lista de desafios
 - [x] Ímpar ou Par
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
+- []
