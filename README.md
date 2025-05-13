@@ -11,12 +11,9 @@ Os scripts disponibilizados envolvem a utilização de alguns fundamentos básic
 - Escrita de funções para reaproveitar blocos de código.
 
 # Lista de desafios
--[x] Ímpar ou Par
-<<<<<<< Updated upstream
-
-
-=======
+- [x] Ímpar ou Par
 - [ ]
+- [ ] 
 -[]
 -[]
 -[]
@@ -24,5 +21,3 @@ Os scripts disponibilizados envolvem a utilização de alguns fundamentos básic
 -[]
 -[]
 -[]
--[]
->>>>>>> Stashed changes
