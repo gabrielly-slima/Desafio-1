@@ -11,16 +11,15 @@ def values():
             "op2":operator_two,
             "c":c_value}
 
-def calculate_first_degree():
-    print(f"Sua expressão é {data["a"]["op1"]["b"]["op2"]["c"]}")
+def calculate_first_degree(data):
+    print(f"Sua expressão é {data["a"]} {data["op1"]} {data["b"]} {data["op2"]} {data["c"]}")
 
 
 entrada = input("CALCULO DE EQUAÇÕES\n Digite 1 se quiser calcular uma equação do PRIMEIRO GRAU\n Digite 2 se quiser calcular uma equação do SEGUNDO GRAU\n")
 
 if entrada == "1":
     data = values()
-    values()
-    calculate_first_degree()
+    calculate_first_degree(data)
 elif entrada =="2":
     values()
 
