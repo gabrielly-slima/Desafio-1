@@ -1,3 +1,5 @@
+import math 
+
 def values(degree):
     while True:
         try: 
@@ -22,18 +24,31 @@ def values(degree):
             continue
 
 def calculate_first_degree(data):
-    print(f"Sua expressão é {data['a']} {data['b']} ")
-    print(f"f(x) = {data['a']}x {data['b']}")
+    if data["b"] > 0:
+        print(f"Sua expressão é f(x) = {data['a']}x + {data['b']} ")
+    else:
+        print(f"Sua expressão é f(x) = {data['a']}x - {data['b']} ")
     result_x = data["a"]/data["b"]
     print(f"f(x)= {result_x}")
 
 def calculate_second_degree(data):
-    print(f"Sua expressão é {data['a']} {data['b']} {data['c']}")
-    print(f"f(x)=")
+    if data["b"] and data["c"] > 0:
+        print(f"Sua expressão é f(x) = {data['a']}x² + {data['b']}x + {data['c']}")
+    elif data["b"] > 0:
+        print(f"Sua expressão é f(x) = {data['a']}x² + {data['b']}x {data['c']}")
+    elif data["c"] > 0:
+        print(f"Sua expressão é f(x) = {data['a']}x² {data['b']}x + {data['c']}")
+    else:
+        print(f"Sua expressão é f(x) = {data['a']}x² {data['b']}x {data['c']}")
+    first_raiz = (-(data["b"]) + math.sqrt(delta_calculate(data))) / (2 * data["a"])
+    second_raiz = (-(data["b"]) - math.sqrt(delta_calculate(data))) / (2 * data["a"])
+    print(f"A equação teve por resultado as raízes {first_raiz} e {second_raiz}")
 
 def delta_calculate(data):
-    result_delta = {data["b"]**2} - 4 * {data["a"]} * {data["c"]}
-    print(result_delta)
+    result_delta = (data["b"]**2) - 4 * data["a"] * data["c"]
+    if result_delta < 0:
+        print("A equação não tem raízes reais")
+    return result_delta
 
 def error_message():
     print("Caractere inválido! Insira o valor correto pedido")
@@ -48,8 +63,8 @@ def main():
             break
 
         elif entrada =="2":
-            values(2)
-            delta_calculate()
+            data = values(2)
+            calculate_second_degree(data)
             break
 
         elif entrada =="0":
@@ -59,8 +74,6 @@ def main():
         else:
             error_message()
             continue
-
-        
 
 main()
 
