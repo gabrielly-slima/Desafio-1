@@ -9,11 +9,11 @@ def pedir_valores(eixo):
 
         if len(valores) > 1:
             try:
-                conver_coordenadas = [float(num) for num in valores]
-                return conver_coordenadas
+                converter_coordenadas = [float(num) for num in valores]
+                return converter_coordenadas
 
             except ValueError:
-                print("As coordenadas de x devem ser números válidos")
+                print(f"As coordenadas de {eixo} devem ser números válidos")
         
         else:
             print("Digite mais uma coordenada")
