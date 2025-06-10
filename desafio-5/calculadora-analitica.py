@@ -25,7 +25,7 @@ def pedir_valores(eixo):
             print("Digite mais uma coordenada")
 
 def mostrar_valores(coordenadas_x,coordenadas_y):
-     '''
+    '''
     Exibe as coordenadas inseridas pelo usuário.
 
     Parâmetros:
@@ -75,7 +75,3 @@ def main():
             continue
     
 main()
-
-    
-
-    
