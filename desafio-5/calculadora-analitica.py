@@ -37,8 +37,8 @@ def main():
         entrada = input("CRIANDO UMA RETA\nDigite:\n1 para CRIAR UMA RETA ou 0 para SAIR\n")
         if entrada == "1":
             try:
-                coordenadas_x = pedir_valores("x")
-                coordenadas_y = pedir_valores_y("y")
+                coordenadas_x = pedir_valores("X")
+                coordenadas_y = pedir_valores("Y")
                 mostrar_valores(coordenadas_x,coordenadas_y)
                 criar_reta(coordenadas_x,coordenadas_y)
             except ValueError:
