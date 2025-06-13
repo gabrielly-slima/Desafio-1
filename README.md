@@ -13,3 +13,5 @@ Os scripts disponibilizados envolvem a utilização de alguns fundamentos básic
 # Lista de desafios
 - [x] Ímpar ou Par
 - [x] Calculadora Simples
+- [x] Calculadora de Média
+- [x] Calculadora de equações do 1º e 2º grau
